@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    padding: 20px 70px 20px 32px;
+    display: flex;
+    align-items: center;
+}
+.button-menu{
+    padding: 0;
+    width: 20px;
+    height: 17px;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 28px;
+    cursor: pointer;
+}
+.menu-line{
+    display: block;
+    height: 3px;
+    width: 20px;
+    background: #1F2022;
+    border-radius: 20px;
+}
+.logo{
+    margin-right: 59px;
+}
+.search-group{
+    display: flex;
+    justify-content: space-between;
+    background: #EBEBEB;
+    max-width: 830px;
+    width: 50%;
+    border-radius: 22px;
+    align-items: center;
+    padding-right: 17px;
+}
+.input-search{
+    background: transparent;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    width: 100%;
+}
+.button-search{
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.icon{
+    fill: #000;
+    
+}
+.icon-link{
+    text-decoration: none;
+    opacity: 0.4;
+}
+.icon-link:hover{
+    opacity: 1;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left: auto;
+}
+.link-user{
+    display: block;
+    text-decoration: none;
+    margin-left: 45px;
+    
+}
+.icon-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
