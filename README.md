@@ -4,3 +4,4 @@
 - CSS
 - Normalize.css
 - svg sprites
+- swiperjs
