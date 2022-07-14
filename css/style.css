@@ -248,6 +248,9 @@
     cursor: pointer;
 
 }
+.swiper-container{
+    overflow: hidden;
+}
 .slider-buttons{
     display: flex;
     width: 66px;
